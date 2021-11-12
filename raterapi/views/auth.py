@@ -55,7 +55,6 @@ def register_user(request):
 
     # Now save the extra info in the raterapi.player table
     player = Player.objects.create(
-        bio=request.data['bio'],
         user=new_user
     )
 

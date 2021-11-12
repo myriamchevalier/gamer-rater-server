@@ -18,10 +18,12 @@ from django.urls import path
 from django.urls.conf import include
 from rest_framework import routers
 from raterapi.views import GameView
-from levelupapi.views import register_user, login_user
+from raterapi.views import register_user, login_user
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'games', GameView, 'game')
+
+
 urlpatterns = [
     path('register', register_user),
     path('login', login_user),
@@ -30,8 +32,5 @@ urlpatterns = [
     path('',include(router.urls) )
 ]
 
-from django.contrib import admin
-from django.conf.urls import include
-from django.urls import path
 
 
