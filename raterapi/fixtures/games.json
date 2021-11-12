@@ -1,0 +1,16 @@
+[
+    {
+        "model": "raterapi.game",
+        "pk": 1,
+        "fields": {
+            "title" : "Horizon Zero Dawn",
+            "description": "In a primitive tribal world where strange, monstrous, animalistic machines roam the wilderness, a brave young female warrior goes on a quest to learn the truth about her mysterious origin and the state the world is in.",
+            "designer": "Guerilla Games",
+            "year_released": 2017,
+            "number_of_players" : 1,
+            "estimated_time_to_play": "40 hours", 
+            "age_recommendation": 14,
+            "player": 1
+        }
+    }
+]
